@@ -1,8 +1,13 @@
 @import './components/navbar';
 @import './partials/global';
 
+html {
+  background-image: url('../images/Radiant-Gradient.svg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
 body {
-  background-color: $color-onyx;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;

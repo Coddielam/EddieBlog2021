@@ -9,14 +9,15 @@
         color: $color-onyx;
         padding: 10px 0;
         display: flex;
-    
-        a:not(:last-child) {
-            margin: 0 18px;
-
-        }
 
         a {
-            transition: transform 0.25s;
+            transition: transform 0.3s;
+            padding: 4px 8px;
+            border-radius: 4px 8px;
+        }
+
+        a:not(:last-child) {
+            margin: 0 10px;
         }
 
         a:hover {
@@ -24,7 +25,9 @@
         }
 
         a.active {
-            color: $color-littleboyblue;
+            background-color: $color-littleboyblue;
+            color: $color-ghostwhite;
+            border-radius: 8px;
             font-weight: 600;
         }
     }
