@@ -1,0 +1,31 @@
+@import '../partials/mixins';
+@import '../partials/variables';
+
+.navbar-container {
+    width: 100%;
+    background-color: $color-ghostwhite;
+    box-shadow: darkgray 0px 1px 5px;
+    nav {
+        color: $color-onyx;
+        padding: 10px 0;
+        display: flex;
+    
+        a:not(:last-child) {
+            margin: 0 18px;
+
+        }
+
+        a {
+            transition: transform 0.25s;
+        }
+
+        a:hover {
+            transform: scale(1.1);
+        }
+
+        a.active {
+            color: $color-littleboyblue;
+            font-weight: 600;
+        }
+    }
+}

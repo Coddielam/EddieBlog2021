@@ -1,0 +1,5 @@
+@import '../partials/mixins';
+.container {
+    @include responsive-attr(max-width, 360px, 730px, 1000px);
+    margin: 0 auto;
+}

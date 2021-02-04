@@ -1,0 +1,23 @@
+@import './components/navbar';
+@import './partials/global';
+
+body {
+  background-color: $color-onyx;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: initial;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
